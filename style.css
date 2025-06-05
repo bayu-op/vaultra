@@ -1,0 +1,107 @@
+/* Reset & Umum */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1e40af;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Section: Layanan */
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #1e3a8a;
+}
+
+/* Card Container */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  max-height: 64px;
+  margin-bottom: 10px;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #1d4ed8;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #1d4ed8;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #e5e5e5;
+}
+
+/* Footer */
+footer {
+  background-color: #111827;
+  color: #ccc;
+  text-align: center;
+  padding: 16px;
+  font-size: 0.9rem;
+}
